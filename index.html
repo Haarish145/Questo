@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book XML View</title>
+  <style>
+    body {
+      background: white;
+      font-family: Consolas, monospace;
+      padding: 20px;
+      white-space: pre;
+      color: black;
+    }
+    .tag { color: brown; }
+    .attr { color: blue; }
+    .value { color: green; }
+    .text { color: black; }
+  </style>
+</head>
+<body>
+<span class="tag">&lt;!DOCTYPE BOOKDETAIL&gt;</span><br>
+<span class="tag">&lt;BOOKDETAIL&gt;</span><br>
+  <span class="tag">  &lt;BOOK&gt;</span><br>
+    <span class="tag">    &lt;TITLE&gt;</span><span class="text">EJB</span><span class="tag">&lt;/TITLE&gt;</span><br>
+    <span class="tag">    &lt;AUTHOR</span> <span class="attr">FNAME=</span><span class="value">"SCOTT"</span> <span class="attr">SCNAME=</span><span class="value">"MULLER"</span><span class="tag"> /&gt;</span><br>
+    <span class="tag">    &lt;PRICE&gt;</span><span class="text">RS.500</span><span class="tag">&lt;/PRICE&gt;</span><br>
+  <span class="tag">  &lt;/BOOK&gt;</span><br>
+
+  <span class="tag">  &lt;BOOK&gt;</span><br>
+    <span class="tag">    &lt;TITLE&gt;</span><span class="text">C</span><span class="tag">&lt;/TITLE&gt;</span><br>
+    <span class="tag">    &lt;AUTHOR</span> <span class="attr">FNAME=</span><span class="value">"BALA"</span> <span class="attr">SCNAME=</span><span class="value">"KURUSAMY"</span><span class="tag"> /&gt;</span><br>
+    <span class="tag">    &lt;PRICE&gt;</span><span class="text">RS.300</span><span class="tag">&lt;/PRICE&gt;</span><br>
+  <span class="tag">  &lt;/BOOK&gt;</span><br>
+
+  <span class="tag">  &lt;BOOK&gt;</span><br>
+    <span class="tag">    &lt;TITLE&gt;</span><span class="text">JAVA</span><span class="tag">&lt;/TITLE&gt;</span><br>
+    <span class="tag">    &lt;AUTHOR</span> <span class="attr">FNAME=</span><span class="value">"SCOTT"</span> <span class="attr">SCNAME=</span><span class="value">"MULLER"</span><span class="tag"> /&gt;</span><br>
+    <span class="tag">    &lt;PRICE&gt;</span><span class="text">RS.500</span><span class="tag">&lt;/PRICE&gt;</span><br>
+  <span class="tag">  &lt;/BOOK&gt;</span><br>
+<span class="tag">&lt;/BOOKDETAIL&gt;</span>
+</body>
+</html>
